@@ -1,0 +1,32 @@
+const styles = theme => ({
+  root: {
+    backgroundColor: theme.palette.background.paper,
+    height: 'calc(100% - 35px)',
+    position: 'absolute',
+    left: '0',
+    width: 'calc(100% - 300px)',
+    maxWidth: '300px',
+    boxShadow: '0px 0px 2px black'
+  },
+  listItem: {
+    cursor: 'pointer',
+  },
+  newProfileBtn: {
+    borderRadius: '0px'
+  },
+  unreadMessage: {
+    color: 'red',
+    position: 'absolute',
+    top: '0',
+    right: '5px'
+  },
+  profileName: {
+    fontSize: '17px',
+  },
+  menuBtn: {
+    position: 'absolute',
+    right: '0px'
+  }
+});
+
+export default styles;
